@@ -1,68 +1,70 @@
     @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800;900&family=Poppins:wght@200&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-    body{
+    body {
         margin: 0px;
         padding: 0px;
         font-family: 'Poppins', sans-serif;
     }
-    .navbar a{
+
+    .navbar a {
         margin: 20px;
-        text-align:center;
+        text-align: center;
         /* padding: 14px ; */
         font-size: 15px;
-        color:white;
+        color: white;
         align-items: center;
-    justify-content: space-around;
+        justify-content: space-around;
     }
-    .nav{
+
+    .nav {
         display: flex;
         gap: 10px;
         align-items: center;
-        
+
     }
 
-    .TRAVEL{
+    .TRAVEL {
         font-size: 10px;
-        
+
     }
-    
-    .navbar{
+
+    .navbar {
         display: flex;
         color: white;
         justify-content: space-between;
         padding: 0px 0px 0px 70px;
         align-items: center;
-        font-size:10px;
+        font-size: 10px;
     }
 
 
 
-    .navbar ul{
+    .navbar ul {
         list-style: none;
         display: flex;
     }
 
-    .navbar ul li a{
+    .navbar ul li a {
         text-decoration: none;
     }
 
-    .navbar ul li a:hover{
-    color: rgb(255, 170, 0);
+    .navbar ul li a:hover {
+        color: rgb(255, 170, 0);
     }
 
-    .search{
+    .search {
         height: 90px;
         width: 100px;
-        text-align: center ;
+        text-align: center;
         justify-content: flex-end;
         background-color: rgb(255, 26, 79);
         color: white;
         border: none;
     }
 
-    .main{
-        background-color:rgb(0, 1, 40) ;
+    .main {
+        background-color: rgb(0, 1, 40);
         width: 80%;
         height: 90px;
         justify-content: center;
@@ -74,9 +76,10 @@
         top: 40px;
         z-index: 100;
 
-        
+
     }
-    .logo{
+
+    .logo {
         color: white;
         font-size: 27px;
     }
@@ -85,7 +88,7 @@
         height: 100%;
         width: 100%;
     } */
-    .container{
+    .container {
         background-image: url("../Image/sean-pollock-PhYq704ffdA-unsplash.jpg");
         height: 1000px;
         /* background-size: contain;
@@ -96,12 +99,12 @@
         width: 100%;
         /* background-color: red; */
         font-family: 'Poppins', sans-serif;
-        
+
     }
 
 
 
-    .discover{
+    .discover {
         position: relative;
         height: 100%;
         display: flex;
@@ -109,49 +112,49 @@
         align-items: center;
     }
 
-    .front{
+    .front {
         position: relative;
         z-index: 1;
         color: white;
         font-size: 100px;
-    
+
     }
 
-    .back{
+    .back {
         position: absolute;
         top: 0px;
         bottom: 0px;
         height: 100%;
         display: flex;
         align-items: center;
-        color: rgba(255, 222, 155,.4);
+        color: rgba(255, 222, 155, .4);
         font-size: 300px;
         display: flex;
         font-family: 'Kanit', sans-serif;
 
     }
 
-    .text{
+    .text {
         background-image: url(../Image/fern-m-lomibao-mMS2R1-V5YM-unsplash.jpg);
         height: 300px;
         width: 100%;
         background-size: cover;
-        background-position:bottom;
-        
-        
+        background-position: bottom;
+
+
     }
 
-    .find{
+    .find {
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 30px;
         color: white;
         padding: 40px;
-    
+
     }
 
-    .total{
+    .total {
         display: flex;
         justify-content: center;
         color: white;
@@ -163,21 +166,21 @@
     }
 
 
-    #name{
+    #name {
         width: 250px;
         height: 30px;
         color: white;
         background-color: rgba(41, 41, 41, 0.2);
         border: 2px solid rgb(153, 153, 153);
         padding: 10px;
-        
+
     }
 
     /* #name::placeholder{
         color: white;
     } */
 
-    #mname{
+    #mname {
         width: 150px;
         height: 30px;
         padding: 10px;
@@ -186,96 +189,96 @@
         color: white;
     }
 
-    .button{
-        
-    text-align: center;
-    background-color: rgb(255,26,79);
-    border: none;
-    color: white;
-    width: 120px;
-    font-size: 18px;
-    height: 55px;
+    .button {
+
+        text-align: center;
+        background-color: rgb(255, 26, 79);
+        border: none;
+        color: white;
+        width: 120px;
+        font-size: 18px;
+        height: 55px;
     }
 
 
-    .dest{
+    .dest {
         justify-content: center;
         display: flex;
         align-items: center;
         font-size: 37px;
         margin-top: 90px;
-    
+
     }
 
-    .look{
+    .look {
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 20px 0px 90px 0px;  
+        margin: 20px 0px 90px 0px;
         /* top right bottom left */
         color: rgb(103, 103, 103);
         font-size: 20px;
-        
+
     }
 
-    .pic{
+    .pic {
         height: 330px;
         width: 80%;
         background-size: cover;
-    color: white;
-    margin:0px auto;
-    display: flex;
-    gap: 20px;
+        color: white;
+        margin: 0px auto;
+        display: flex;
+        gap: 20px;
 
-    
+
     }
 
-    .from{
+    .from {
         height: 330px;
         width: 270px;
         display: flex;
         background-size: cover;
         background-position: bottom;
         flex-direction: column;
-        justify-content:flex-end;
+        justify-content: flex-end;
         padding: 0px 0px 20px 25px;
     }
 
-    #FIRST{
+    #FIRST {
         background-image: url(../Image/top_1.webp);
-    }   
+    }
 
-    #SECOND{
+    #SECOND {
         background-image: url(../Image/top_2.webp);
     }
 
-    #THIRD{
+    #THIRD {
         background-image: url(../Image/top_3.webp);
     }
 
-    #FOURTH{
+    #FOURTH {
         background-image: url(../Image/top_4.webp);
     }
 
-    .place{
+    .place {
         font-size: 22px;
     }
 
-    .cost{
+    .cost {
         font-size: 15px;
     }
 
-    .sea{
+    .sea {
         margin-top: 120px;
         background-image: url(../Image/mohamed-thasneem-AOFlegU1eTs-unsplash.jpg);
         height: 600px;
         background-position: bottom;
         background-size: cover;
-        display: flex ;
+        display: flex;
         /* justify-content: center; */
     }
 
-    .boxs{
+    .boxs {
         display: flex;
         color: white;
         gap: 200px;
@@ -286,26 +289,26 @@
     }
 
 
-    .box{
+    .box {
         background-color: rgba(255, 26, 79, 0.8);
         /* background-color: rgba(206, 1, 1, 0.9); */
 
         height: 350px;
         width: 27.5%;
         text-align: left;
-        padding: 40px ;
-        
+        padding: 40px;
+
     }
 
 
-    .PLACE{
+    .PLACE {
         font-size: 18px;
         text-align: left;
         margin-left: 60px;
-        
+
     }
 
-    .percent{
+    .percent {
         font-size: 150px;
         text-align: left;
         text-align: center;
@@ -314,18 +317,18 @@
 
     }
 
-    .last{
-        font-size:35px;
+    .last {
+        font-size: 35px;
         text-align: center;
 
     }
 
-    .lorem{
+    .lorem {
         text-align: center;
-    font-size: 15px;
+        font-size: 15px;
     }
 
-    .offer{
+    .offer {
         background-color: black;
         color: white;
         border: none;
@@ -337,44 +340,44 @@
         padding: 12px;
     }
 
-    .hij{
+    .hij {
         display: flex;
         justify-content: center;
         padding: 15px;
     }
 
-    .destinations{
+    .destinations {
         text-align: center;
     }
 
-    .popular{
+    .popular {
         font-size: 37px;
         margin-top: 90px;
     }
 
-    .take{
-        margin: 20px 0px 90px 0px;  
+    .take {
+        margin: 20px 0px 90px 0px;
         /* top right bottom left */
         color: rgb(103, 103, 103);
         font-size: 20px;
     }
 
-    .four1{
+    .four1 {
         /* height: 220px; */
         /* background-color: red; */
         width: 80%;
         background-size: cover;
         color: white;
-        margin:0px auto;
+        margin: 0px auto;
         display: grid;
         grid-template-columns: auto auto auto auto;
         /* flex-wrap: wrap; */
         gap: 30px;
-        
+
     }
 
 
-    .PIC{
+    .PIC {
         /* flex: 1; */
         height: 175px;
         width: 100%;
@@ -384,79 +387,82 @@
         background-size: cover;
         background-position: bottom;
         flex-direction: column;
-        justify-content:flex-end;
+        justify-content: flex-end;
         /* padding: 0px 0px 20px 25px; */
 
     }
-    .PIC .abc{
+
+    .PIC .abc {
         padding: 20px 25px;
     }
 
-    .pp{
+    .pp {
         font-size: 15px;
-        
+
     }
-    .area{
-        
+
+    .area {
+
         font-size: 22px;
     }
 
-    #one{
+    #one {
         background-image: url(../Image/popular_1.webp);
     }
 
-    #two{
+    #two {
         background-image: url(../Image/popular_2.webp);
     }
 
-    #three{
+    #three {
         background-image: url(../Image/popular_3.webp);
     }
 
-    #four{
+    #four {
         background-image: url(../Image/popular_4.webp);
     }
 
-    #five{
+    #five {
         background-image: url(../Image/popular_5.webp);
     }
 
-    #six{
+    #six {
         background-image: url(../Image/popular_6.webp);
     }
 
-    #seven{
+    #seven {
         background-image: url(../Image/popular_7.webp);
     }
 
-    #eight{
+    #eight {
         background-image: url(../Image/popular_8.webp);
     }
 
-    .spec{
+    .spec {
         text-align: center;
     }
 
-    .special{
+    .special {
         font-size: 37px;
         margin-top: 90px;
     }
 
-    .off{
-        margin: 20px 0px 90px 0px;  
+    .off {
+        margin: 20px 0px 90px 0px;
         /* top right bottom left */
         color: rgb(103, 103, 103);
         font-size: 20px;
     }
-    .video{
+
+    .video {
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items:center ;
+        align-items: center;
     }
 
-    .saab{
+    .saab {
         position: absolute;
         top: 10%;
         bottom: 0px;
@@ -466,20 +472,20 @@
         width: fit-content;
         justify-content: center;
         text-align: center;
-        
+
     }
 
-    .day{
+    .day {
         position: relative;
         font-size: 40px;
     }
 
-    .org{
+    .org {
         position: relative;
         font-size: 15px;
     }
 
-    .scroll{
+    .scroll {
         height: 550px;
         width: 100%;
         background-size: cover;
@@ -487,56 +493,56 @@
         /* margin:0px auto; */
         display: flex;
         gap: 8px;
-        
+
     }
 
-    .aa{
+    .aa {
         height: 500px;
         width: 300px;
         color: rgb(255, 255, 255);
-        margin:0px auto;
+        margin: 0px auto;
         display: flex;
         background-size: cover;
         background-position: bottom;
         align-items: center;
         flex-direction: column;
-        justify-content:flex-end;
+        justify-content: flex-end;
         padding: 0px 0px 20px 25px;
         font-weight: 100;
         padding-bottom: 40px;
     }
 
-    #first{
+    #first {
         background-image: url(../Image/bali.jpg);
     }
 
-    #second{
+    #second {
         background-image: url(../Image/france.jpg);
     }
 
-    #third{
+    #third {
         background-image: url(../Image/indonesia.jpg);
     }
 
-    #fourth{
+    #fourth {
         background-image: url(../Image/india.jpg);
     }
 
-    #fifth{
+    #fifth {
         background-image: url(../Image/thailand.jpg);
     }
 
-    .visit{
+    .visit {
         font-size: 25px;
     }
 
-    .country{
+    .country {
         font-size: 35px;
     }
 
 
 
-    .new{
+    .new {
         background-image: url(../Image/les-argonautes-Pp1ijectYT0-unsplash.jpg);
         background-position: bottom;
         background-size: cover;
@@ -544,10 +550,10 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        
+
     }
 
-    .our{
+    .our {
         font-size: 40px;
         color: white;
         display: flex;
@@ -555,30 +561,31 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top:150px ;
+        padding-top: 150px;
     }
 
-    #email{
+    #email {
         /* margin: 40px; */
         height: 50px;
         width: 800px;
         border: 2px solid rgb(131, 131, 131);
-        background-color: rgba(95, 95, 95,0);
-        color:white;
+        background-color: rgba(95, 95, 95, 0);
+        color: white;
         padding-left: 40px;
-    
+
     }
 
 
-    #email::placeholder{
+    #email::placeholder {
         color: rgb(198, 198, 198);
         padding: 5px;
         font-size: 15px;
         font-style: italic;
     }
-    .subs{
+
+    .subs {
         margin: 40px 0px 0px 5px;
-        background-color: rgb(255,26,79);
+        background-color: rgb(255, 26, 79);
         font-size: 18px;
         color: white;
         border: none;
@@ -587,7 +594,7 @@
 
     }
 
-    .laast{
+    .laast {
         background-color: rgb(0, 12, 27);
         height: 300px;
         padding: 70px 150px 70px 150px;
@@ -595,101 +602,97 @@
         gap: 30px;
     }
 
-    .haha{
+    .haha {
         height: 300px;
         width: 400px;
         color: rgb(129, 129, 129);
     }
 
-    .latest{
+    .right {
         height: 300px;
         width: 400px;
     }
 
-    .duita{
-      width: 260px;
-      height: 160px;
-      color: rgb(129, 129, 129);
-      padding-top: 15px;
-   
-      text-align: justify;
-      justify-content:right
-    }
-    
-    .time{
-        font-size: 18px;
-    }
-
-    .date{
-        font-size: 13px;
-    }
-
-    #suruko{
-        background-color: aqua;
-        height: 80px;
-       
-    }
-
-    .right{
-        height: 300px;
-        width: 400px;
-    }
-
-    .lefttop{
+    .lefttop {
         width: 150px;
         text-align: center;
     }
 
-    .desti{
-            color: white;
-            font-size: 27px;
+    .desti {
+        color: white;
+        font-size: 27px;
     }
-    .agency{
+
+    .agency {
         font-size: 10px;
     }
 
-    .leftlorem{
+    .leftlorem {
         font-size: 13px;
         /* background-color: aqua; */
         padding-top: 30px;
     }
 
-    .copyright{
+    .copyright {
         padding-top: 30px;
         font-size: 13px;
     }
 
-    .NEWS{
+    .latest {
+        height: 300px;
+        width: 400px;
+    }
+
+    .NEWS {
         font-size: 25px;
         color: white;
         height: 60px;
         /* background-color: aqua; */
-       
+
+    }
+
+    .duita {
+        width: 260px;
+        height: 160px;
+        color: rgb(129, 129, 129);
+        padding-top: 15px;
+        text-align: justify;
+        justify-content: right
+    }
+
+    .time {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 13px;
+        color: red;
+    }
+
+    .phuto{
+       padding-left: 85px;
+       height: 80px;
+       /* background-color: antiquewhite; */
+    }
+    
+    .tag {
+        font-size: 25px;
+        color: white;
     }
 
 
-   
+    .buttons {
+        height: 35px;
+        width: 100px;
+        margin-top: 10px;
+        /* padding:20px 30px 20px 30px; */
+        border: none;
+        background-color: rgb(255, 26, 79);
+        color: white;
+        font-size: 15px;
+        /* justify-content: space-between; */
+    }
 
-.tag{
-    font-size: 25px;
-    color: white;
-}
-
-
-.buttons{
-    height: 35px;
-    width: 100px;
-    margin-top: 10px;
-    /* padding:20px 30px 20px 30px; */
-    border: none;
-    background-color: rgb(255,26,79);
-    color: white;
-    font-size: 15px;
-    /* justify-content: space-between; */
-}
-
-.keke
-{
-    padding-top: 30px;
-}
-   
+    .keke {
+        padding-top: 30px;
+    }
