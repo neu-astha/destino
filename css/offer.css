@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800;900&family=Poppins:wght@200&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a {
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.TRAVEL {
+    font-size: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 0px 0px 70px;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 170, 0);
+}
+
+.search {
+    height: 90px;
+    width: 100px;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: rgb(255, 26, 79);
+    color: white;
+    border: none;
+}
+
+.main {
+    background-color: rgb(0, 1, 40);
+    width: 80%;
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 40px;
+    z-index: 100;
+
+
+}
+
+.logo {
+    color: white;
+    font-size: 27px;
+}
+
+.container {
+    background-image: url(../Image/fol.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+        color: white;
+        margin: 0px auto;
+        display: flex;
+
+}
+
+.about{
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-left: 150px;
+}
+
+.mathi{
+    font-size: 60px;
+}
+
+.tala{
+    font-size: 20px;
+}
+
+.text {
+    background-image: url(../Image/blurr.jpg);
+    height: 280px;
+    width: 90%;
+    background-size: cover;
+    background-position: bottom ;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: -130px;
+}
+
+.find {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+    /* text-align: center; */
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+
+#name {
+    width: 250px;
+    height: 30px;
+    color: white;
+    background-color: rgba(41, 41, 41, 0.2);
+    border: 2px solid rgb(153, 153, 153);
+    padding: 10px;
+
+}
+
+/* #name::placeholder{
+    color: white;
+} */
+
+#mname {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgba(41, 41, 41, 0.2);
+    border: 2px solid rgb(153, 153, 153);
+    color: white;
+}
+
+.button {
+
+    text-align: center;
+    background-color: rgb(255, 26, 79);
+    border: none;
+    color: white;
+    width: 120px;
+    font-size: 18px;
+    height: 55px;
+}
+
+.award {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 37px;
+    margin-top: 90px;
+
+}
+
+.story {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 20px 0px 90px 0px;
+    /* top right bottom left */
+    color: rgb(103, 103, 103);
+    font-size: 20px;
+
+}
+
