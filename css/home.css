@@ -39,7 +39,7 @@
         font-size: 10px;
     }
 
-    dnavbar ul {
+    .navbar ul {
         list-style: none;
         display: flex;
     }
@@ -361,7 +361,7 @@
         font-size: 20px;
     }
 
-    .four1 {
+    .eight{
         /* height: 220px; */
         /* background-color: red; */
         width: 80%;
@@ -765,7 +765,7 @@
         }
 
         .find{
-        font-size: 20px;
+        font-size: 25px;
         padding: 40px;
         text-align: center;
         }
@@ -818,7 +818,7 @@
 
         .from {
             height: 330px;
-            width: 260px;
+            width: 105%;
             padding: 0px 0px 20px 20px;
         }
 
@@ -879,10 +879,8 @@
             background-color: rgba(129, 84, 0,0.4);
         }
        
-        .saab {
-            
+        .saab {   
             top: 18%;
-
         }
     
         .day {
@@ -902,19 +900,34 @@
             font-size: 10px;
         }
         
-
+        .eight{ 
+            height: 1950px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+        }
         
-
-
-
-
-        .eight{
-            display: none;
+        .PIC {
+            height: 220px;
+            
 
         }
-    .spec{
-             display: none;
-    }
+    
+        .PIC .abc {
+            padding: 20px 25px;
+        }
+
+        .special{
+            font-size: 20px;
+    
+        }
+    
+        .off{
+            font-size: 10px;
+        }
+
+        
+    
 
     .scroll{
         display: none;
