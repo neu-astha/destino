@@ -6,6 +6,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
 }
 
 .navbar a {
@@ -463,6 +465,27 @@ body {
 
 }
 
+.suruko{
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.suruko img{
+    height: 65px;
+    width: 65px;
+}
+
+.secondko{
+    display: flex;
+    gap: 20px;
+}
+
+.secondko img{
+    height: 65px;
+    width: 65px;
+}
+
 .duita {
     width: 260px;
     height: 160px;
@@ -482,10 +505,11 @@ body {
 }
 
 .phuto{
-   padding-left: 85px;
+   /* padding-left: 85px; */
    height: 80px;
    /* background-color: antiquewhite; */
 }
+
 
 .tag {
     font-size: 25px;

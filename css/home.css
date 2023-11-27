@@ -2,9 +2,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800;900&family=Poppins:wght@200&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
     body {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
         font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
     }
 
     .navbar a {
@@ -651,6 +652,27 @@
 
     }
 
+    .suruko{
+        display: flex;
+        gap: 20px;
+        /* background-color: red; */
+    }
+
+    .suruko img{
+        height: 65px;
+        width: 65px;
+    }
+
+    .secondko{
+        display: flex;
+        gap: 20px;
+    }
+
+    .secondko img{
+        height: 65px;
+        width: 65px;
+    }
+
     .duita {
         width: 260px;
         height: 160px;
@@ -670,7 +692,7 @@
     }
 
     .phuto{
-       padding-left: 85px;
+       /* padding-left: 85px; */
        height: 80px;
        /* background-color: antiquewhite; */
     }

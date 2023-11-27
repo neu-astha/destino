@@ -6,6 +6,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
 }
 
 .navbar a {
@@ -201,3 +203,279 @@ body {
 
 }
 
+.boxes{
+    width: 80%;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    gap: 200px;
+    /* background-color: aliceblue; */
+}
+
+.left{
+    /* background-color: aliceblue; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#in{
+    height: 30px;
+    width: 130px;
+    padding-left: 10px;
+    border: 2px solid rgb(192, 190, 190);
+}
+
+.xx{
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    font-size: 12px;
+    color: rgb(144, 144, 144);
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.icons{
+    display: flex;
+    color: black;
+    gap: 35px;
+}
+
+.menu:hover{
+    color: red;
+}
+
+.fourbox:hover{
+    color: red;
+}
+
+.four{
+    height: 1300px;
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 0px auto;
+
+}
+
+.dtls{
+    display: flex;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+.dtls img{
+    height: 300px;
+    width: 220px;
+    
+}
+
+.from{
+    font-size: 13px;
+   font-weight: bolder;
+}
+
+.country{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.details{
+    font-size: 13px;
+    padding: 10px 0px 10px 0px;
+    color: rgb(144, 144, 144);
+}
+
+
+.lorem{
+    color: rgb(109, 109, 109);
+
+}
+
+.btn{
+    margin-top: 30px;
+    font-size: 13px;
+    color: rgb(27, 27, 27);
+}
+
+.btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.new {
+    background-image: url(../Image/les-argonautes-Pp1ijectYT0-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.our {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+#email {
+    /* margin: 40px; */
+    height: 50px;
+    width: 800px;
+    border: 2px solid rgb(131, 131, 131);
+    background-color: rgba(95, 95, 95, 0);
+    color: white;
+    padding-left: 40px;
+
+}
+
+
+#email::placeholder {
+    color: rgb(198, 198, 198);
+    padding: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.subs {
+    margin: 40px 0px 0px 5px;
+    background-color: rgb(255, 26, 79);
+    font-size: 18px;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 160px;
+
+}
+
+.laast {
+    background-color: rgb(0, 12, 27);
+    height: 300px;
+    padding: 70px 150px 70px 150px;
+    display: flex;
+    gap: 30px;
+}
+
+.haha {
+    height: 300px;
+    width: 400px;
+    color: rgb(129, 129, 129);
+}
+
+.right {
+    height: 300px;
+    width: 400px;
+}
+
+.lefttop {
+    width: 150px;
+    text-align: center;
+}
+
+.desti {
+    color: white;
+    font-size: 27px;
+}
+
+.agency {
+    font-size: 10px;
+}
+
+.leftlorem {
+    font-size: 13px;
+    /* background-color: aqua; */
+    padding-top: 30px;
+}
+
+.copyright {
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.latest {
+    height: 300px;
+    width: 400px;
+}
+
+.NEWS {
+    font-size: 25px;
+    color: white;
+    height: 60px;
+    /* background-color: aqua; */
+
+}
+
+.suruko{
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.suruko img{
+    height: 65px;
+    width: 65px;
+}
+
+.secondko{
+    display: flex;
+    gap: 20px;
+}
+
+.secondko img{
+    height: 65px;
+    width: 65px;
+}
+
+.duita {
+    width: 260px;
+    height: 160px;
+    color: rgb(129, 129, 129);
+    padding-top: 15px;
+    text-align: justify;
+    justify-content: right
+}
+
+.time {
+    font-size: 18px;
+}
+
+.date {
+    font-size: 13px;
+    color: red;
+}
+
+.phuto{
+   height: 80px;
+   /* background-color: antiquewhite; */
+}
+
+.tag {
+    font-size: 25px;
+    color: white;
+}
+
+
+.buttons {
+    height: 35px;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(255, 26, 79);
+    color: white;
+    font-size: 15px;
+}
+
+.keke {
+    padding-top: 30px;
+}
