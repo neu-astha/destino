@@ -991,11 +991,11 @@
         }
 
         .laast {
-            height: 900px;
+            height: 950px;
             padding: 0px;
             display: flex;
             flex-direction: column;
-            padding: 0px 15px 0px 15px ;
+            padding: 0px 18px 0px 18px ;
         }
     
         .haha {
@@ -1033,7 +1033,6 @@
         }
 
         .latest {
-            /* background-color: aqua; */
             height: 250px;
             width: 100%;
         }
@@ -1041,7 +1040,6 @@
         .NEWS {
             font-size: 25px;
             height: 50px;
-            /* background-color:aquamarine; */
     
         }
 
@@ -1055,7 +1053,7 @@
         }
     
         .right {
-            height: 250px;
+            height: 300px;
             width: 100%;
         }
         
@@ -1066,7 +1064,7 @@
     
         .buttons {
             height: 35px;
-            width: 99px;
+            width: 90px;
             font-size: 13px;
         }
     
